@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:minHeight="60dp"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:id="@+id/wechat_avatar"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"></ImageView>
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/wechat_name"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"></TextView>
+
+            <TextView
+                android:id="@+id/wechat_time"
+                android:gravity="center"
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:id="@+id/wechat_msg"
+            android:gravity="center|left"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
