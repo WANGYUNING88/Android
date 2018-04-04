@@ -1,17 +1,17 @@
- 2 <shape xmlns:android="http://schemas.android.com/apk/res/android"
- 3     android:shape="rectangle" >
- 4 
- 5 <!--     <gradient
- 6         android:angle="45"
- 7         android:endColor="#CCCCCC"
- 8         android:startColor="#CCCCCC" /> -->
- 9 
-10     <padding
+ <shape xmlns:android="http://schemas.android.com/apk/res/android"
+     android:shape="rectangle" >
+  
+  <!--     <gradient
+          android:angle="45"
+          android:endColor="#CCCCCC"
+          android:startColor="#CCCCCC" /> -->
+  
+     <padding
         android:bottom="7dp"
         android:left="7dp"
         android:right="7dp"
         android:top="7dp" />
-     <!-- ÉèÖÃÔ²½Ç¾ØÐÎ -->
+     <!-- Ã‰Ã¨Ã–ÃƒÃ”Â²Â½Ã‡Â¾Ã˜ÃÃŽ -->
      <corners android:radius="3dp" />
  
      <stroke
