@@ -1,0 +1,18 @@
+Android系统管理联系人的URI如下:
+ContactsContract.Contacts.CONTENT_URI 管理联系人的Uri
+ContactsContract.CommonDataKinds.Phone.CONTENT_URI 管理联系人的电话的Uri
+ContactsContract.CommonDataKinds.Email.CONTENT_URI 管理联系人的Email的Uri
+
+注：Contacts有两个表，分别是rawContact和Data，
+
+rawContact:记录了用户的id和name,
+    id栏名称为：  ContactsContract.Contacts._ID, 
+    name栏名称为：ContactsContract.Contacts.DISPLAY_NAME,
+
+Data：
+
+电话信息表的外键id为：ContactsContract.CommonDataKinds.Phone.CONTACT_ID,
+电话信息表的电话号码栏名称为：ContactsContract.CommonDataKinds.Phone.NUMBER.
+
+Email外键为：ContactsContract.CommonDataKinds.Email.CONTACT_ID
+Email地址栏名称为：ContactsContract.CommonDataKinds.Email.DATA
